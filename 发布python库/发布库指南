@@ -1,0 +1,10 @@
+发布库指南（转载：王若宇）
+1.编写库
+pycharm新建软件包
+在__init__.py中写函数
+2.更改setup.py内容
+更改setup.py的内容，运行setup.py，生成一个文件夹
+3.终端执行代码
+终端执行代码：
+venv\Scripts\python -m twine upload dist/*
+需安装twine库
